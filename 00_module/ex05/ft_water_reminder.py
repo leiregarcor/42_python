@@ -2,19 +2,18 @@
 # ########################################################################### #
 #   shebang: 1                                                                #
 #                                                          :::      ::::::::  #
-#   ft_garden_name.py                                    :+:      :+:    :+:  #
+#   ft_water_reminder.py                                 :+:      :+:    :+:  #
 #                                                      +:+ +:+         +:+    #
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/14 16:48:17 by leigarci           ###   ########.fr      #
+#   Updated: 2026/09/28 17:36:53 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
-def ft_garden_name():
-	name = input("Enter garden name: ")
-	print(f"Garden: {name}")
-	print("Status: Growing well!")
-	
-	
-	
+def	ft_water_reminder():
+	days = int(input("Days since last watering: "))
+	if (days > 2):
+		print("Water the plants!")
+	else:
+		print("Plant are fine")

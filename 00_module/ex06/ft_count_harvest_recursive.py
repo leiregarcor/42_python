@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
+
 # ########################################################################### #
 #   shebang: 1                                                                #
 #                                                          :::      ::::::::  #
-#   ft_garden_name.py                                    :+:      :+:    :+:  #
+#   ft_count_harvest_recursive.py                        :+:      :+:    :+:  #
 #                                                      +:+ +:+         +:+    #
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/14 16:48:17 by leigarci           ###   ########.fr      #
+#   Updated: 2026/09/28 17:47:05 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
-def ft_garden_name():
-	name = input("Enter garden name: ")
-	print(f"Garden: {name}")
-	print("Status: Growing well!")
-	
-	
-	

@@ -2,19 +2,17 @@
 # ########################################################################### #
 #   shebang: 1                                                                #
 #                                                          :::      ::::::::  #
-#   ft_garden_name.py                                    :+:      :+:    :+:  #
+#   ft_harvest_total.py                                  :+:      :+:    :+:  #
 #                                                      +:+ +:+         +:+    #
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/14 16:48:17 by leigarci           ###   ########.fr      #
+#   Updated: 2026/09/14 16:57:52 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
-def ft_garden_name():
-	name = input("Enter garden name: ")
-	print(f"Garden: {name}")
-	print("Status: Growing well!")
-	
-	
-	
+def	ft_harvest_total():
+	harvest1 = int(input("Day 1 harvest: "))
+	harvest2 = int(input("Day 2 harvest: "))
+	harvest3 = int(input("Day 3 harvest: "))
+	print(f"Total harvest: {harvest1 + harvest2 + harvest3}")
