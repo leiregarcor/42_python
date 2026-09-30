@@ -7,11 +7,14 @@
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/30 20:10:32 by leigarci           ###   ########.fr      #
+#   Updated: 2026/09/30 20:17:20 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 def ft_count_harvest_iterative():
 	days = int(input("Days until harvest: "))
-	range(days)
+	for i in range(1, (days + 1)):
+		print("Day " + str(i))
+	print("Harvest time!")
+	
 	
