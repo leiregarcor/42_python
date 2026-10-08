@@ -7,18 +7,17 @@
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/10/04 16:32:59 by leigarci           ###   ########.fr      #
+#   Updated: 2026/10/08 20:45:22 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 def ft_seed_inventory(seed_type: str, quantity: int, unit: str) -> None:
-	if (unit == "packets"):
-		print(f"{seed_type.capitalize()} seeds: {quantity} {unit} available")
-	elif (unit == "grams"):
-		print(f"{seed_type.capitalize()} seeds: {quantity} {unit} total")
-	elif (unit == "area"):
-		print(f"{seed_type.capitalize()} seeds: covers {quantity} square meters")
-	else:
-		print("Unknown unit type")
-	
-	
+    type_cap = seed_type.capitalize()
+    if (unit == "packets"):
+        print(f"{type_cap} seeds: {quantity} {unit} available")
+    elif (unit == "grams"):
+        print(f"{type_cap} seeds: {quantity} {unit} total")
+    elif (unit == "area"):
+        print(f"{type_cap} seeds: covers {quantity} square meters")
+    else:
+        print("Unknown unit type")

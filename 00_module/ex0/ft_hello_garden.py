@@ -7,9 +7,9 @@
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/12 18:28:01 by leigarci           ###   ########.fr      #
+#   Updated: 2026/10/08 20:37:07 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 def ft_hello_garden():
-	print("Hello, Garden Community!")
+    print("Hello, Garden Community!")

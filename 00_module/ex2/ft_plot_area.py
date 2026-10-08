@@ -7,12 +7,12 @@
 #   By: leigarci <leigarci@student.42urduliz.com>    +#+  +:+       +#+       #
 #                                                  +#+#+#+#+#+   +#+          #
 #   Created: Invalid date        by                     #+#    #+#            #
-#   Updated: 2026/09/14 16:54:25 by leigarci           ###   ########.fr      #
+#   Updated: 2026/10/08 20:43:17 by leigarci           ###   ########.fr      #
 #                                                                             #
 # ########################################################################### #
 
 def ft_plot_area():
-	length = int(input("Enter length: "))
-	width = int(input("Enter width: "))
-	area = length * width
-	print(f"Plot area: {area}")
+    length = int(input("Enter length: "))
+    width = int(input("Enter width: "))
+    area = length * width
+    print(f"Plot area: {area}")
